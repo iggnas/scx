@@ -18,7 +18,7 @@ The project defines several Cargo build profiles in the top-level `Cargo.toml`:
   Stripped, thin LTO, optimized for small binary size.
 
 - **release-fast**
-  Optimized for compilation speed and native CPU optimizations, no LTO.
+  Optimized for compilation speed and native CPU optimizations, thin LTO.
 
 You can select a profile using the `--profile` option, for example:
 
